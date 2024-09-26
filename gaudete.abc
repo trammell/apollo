@@ -1,17 +1,14 @@
 X:1
 T:Gaudete!
-A: arr. Michael Engelhart
-L:1/8
+A:arr. Michael Engelhart
+L:1/4
 M:4/4
 O:Piae Cantiones, 1582
-Q:"Allegro"1/4=100
+Q:1/2=78
 R:Rhythmic, with joy
-Q: 80
-V: T2 nm="Tenor 2"
+V:T2 nm="T.2"
 K:E clef=treble
-!mf! | c3 (G G2) (B2 | B6) z2 | c3 (G1 G2) (B2 | B6) \
-  (_B/4 G/4 F/) (G/2 B/2) ^F (_E/ =F/) | (_E/C/_B,) C2 |]
-
-
-!f! a a a a 
+[V:T2] | c3/2 G1/2-G B- | B3 z | (c3/2 G1/2-G) F- | F B3/2 ||
+w: | Mi-sir-lou mou i gli-kia sou ma-tia
+[V:T2] |c3/2|
 
