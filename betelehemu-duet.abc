@@ -1,5 +1,5 @@
 X:1
-T:Gaudete!
+T:Betelehemu Duet
 A:arr. Michael Engelhart
 L:1/4
 M:4/4
@@ -8,8 +8,7 @@ Q:1/2=78
 R:Rhythmic, with joy
 V:T2 nm="T.2"
 K:E clef=treble
-[V:T2] | A2 A2 | B2 A2 | (c3/2 G1/2-G) F- | F B3/2 ||
-w: | zale air-hept dane jair---uhn
+[V:T2] | c3/2 G1/2-G B- | B3 z | (c3/2 G1/2-G) F- | F B3/2 ||
+w: | Mi-sir-lou mou i gli-kia sou ma-tia
 [V:T2] |c3/2|
 
-A
