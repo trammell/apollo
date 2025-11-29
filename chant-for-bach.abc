@@ -7,18 +7,14 @@ Q:1/4=120
 L:1/4
 % Z: John Trammell, <john.trammell@gmail.com>
 K: F clef=treble
-A2 A2 | B2 A2 | G4 | F4 |
+I:linebreak $
+A2 A2 | B2 A2 | G4 | F4 | $
 w: Seel er-hebt den Her-ren; 
 w: zale air-hept dane hair-uhn
-A2 c2 |\
-w: und mein 
-w: uuhnt mine
-M:3/2
-G z G2 G2 |\
-w: Geist freut sich
-w: guyst froyt zikh
-M: C
-G2 G2 | D2 F2 | E4 | D4 | 
-w: Got-tes mei-nes Hei-lands
+A2 c2 | [M:3/2] G z G2 G2 | [M:C] G2 G2 | D2 F2 | E4 | D4 | 
+w: und mein Geist freut sich Got-tes mei-nes Hei-lands
+w: uuhnt mine guyst froyt zikh gaw-tuh smy-nu sHai-lants
 
-%%text Translation: (My soul) magnifies the Lord, and my spirit rejoices in God my Savior,
+%%sep 
+%%text Translation: (My soul) magnifies the Lord,
+%%text and my spirit rejoices in God my Savior,
