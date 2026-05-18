@@ -17,7 +17,7 @@ global = {
 }
 
 "Stanza 1" = \lyricmode {
-  O sweeter than the honeywell, Deep  in the sweetest rose in june
+  O sweeter2 than the honeywell,2 Deep in the sweetest2 rose in June,
 }
 
 "Stanza 2" = \lyricmode {
@@ -33,7 +33,7 @@ global = {
 }
 
 "T2 Music" = \relative {
-  e'4 e4. f8 f a a g g f e f a c
+  e'4 e4. f8 f4 a a4. g8 g f e f a c
 }
 "T2 Words" = \lyricmode {
   ha ha ha ha
