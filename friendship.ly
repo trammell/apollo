@@ -1,6 +1,12 @@
 \version "2.26.0"
 \language "english"
 
+\header {
+  title = "Friendship."
+  composer = "W. E. Haesche"
+  poet = \markup { \small Words by Allen Botsford }
+}
+
 % from template https://lilypond.org/doc/v2.26/Documentation/learning/satb-vocal-score
 
 \paper {
@@ -18,6 +24,11 @@ global = {
 
 "Stanza 1" = \lyricmode {
   O sweeter2 than the honeywell,2 Deep in the sweetest2 rose in June,
+  And all sweet things that tongue can tell on clover scented afternoon
+  Is friendship that has lived for years
+  Through fortune failure and through tears
+  Is friendship that has lived for years
+  Through fortune failure and through tears
 }
 
 "Stanza 2" = \lyricmode {
@@ -25,32 +36,37 @@ global = {
 }
 
 
-"T1 Music" = \relative {
-  c''4 c c8[( b)] c4
+"T1 Music" = \relative c'' {
+  c4^\p |
+  c4. c8 c4 c4 |
+  c8[( b)] c4
 }
 "T1 Words" = \lyricmode {
   O sweeter than the honeywell, Deep  in the sweetest rose in june
 }
 
-"T2 Music" = \relative {
-  e'4 e4. f8 f4 a a4. g8 g f e f a c
+"T2 Music" = \relative c' {
+  e'4^\p |
+  e4. f8 f4 a |
+  a4. g8 g f e |
+  f a c
 }
 "T2 Words" = \lyricmode {
-  ha ha ha ha
+  O sweeter than the honeywell, Deep  in the sweetest rose in june
 }
 
 "B1 Music" = \relative {
   g4 a f g
 }
 "B1 Words" = \lyricmode {
-  hu hu hu hu
+  O sweeter than the honeywell, Deep  in the sweetest rose in june
 }
 
 "B2 Music" = \relative {
   c4 c g c
 }
 "B2 Words" = \lyricmode {
-  ho ho ho ho
+  O sweeter than the honeywell, Deep  in the sweetest rose in june
 }
 
 \score {

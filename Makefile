@@ -12,6 +12,8 @@ lint:
 
 all: chant-for-bach.mp3 friendship.pdf
 
+pdf: friendship.pdf
+
 %.mid: %.abc
 	abc2midi $< -o $@
 
