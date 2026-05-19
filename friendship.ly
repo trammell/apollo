@@ -5,6 +5,7 @@
   title = "Friendship."
   composer = "W. E. Haesche"
   poet = \markup { \small Words by Allen Botsford }
+  tagline = \markup {  Copyright, 1905, by G. Schirmer (Inc.)  Copyright  }
 }
 
 % from template https://lilypond.org/doc/v2.26/Documentation/learning/satb-vocal-score
@@ -48,7 +49,7 @@ global = {
 "T2 Music" = \relative c' {
   e'4^\p |
   e4. f8 f4 a |
-  a4. g8 g f e |
+  a4. g8 g f e^"cresc." |
   f a c
 }
 "T2 Words" = \lyricmode {
@@ -116,5 +117,15 @@ global = {
     \context Lyrics = "B1"  \lyricsto  "B1"   \"B1 Words"
     \context Lyrics = "B2"  \lyricsto  "B2"   \"B2 Words"
   >>
+}
+
+\markup {
+
+Fair Hotchkiss
+
+Fair Hotchkiss, we, thy loyal sons
+Where'er in life our journey runs,
+
+
 }
 
