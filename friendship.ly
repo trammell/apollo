@@ -99,13 +99,11 @@ global = {
 
                 df4. df8 df4 df4 |
                 ef4 ef4 ef4 ef4 |
-                ef4. df8 df4 df4 |
+                ef4. df8 df4 df4 | \break
 
                 f4. f8 ef4 df4 |
-                f4. ef8 ef4
-                \once \override TextScript.outside-staff-priority = 100
-                ef,4\< |
-                f4 af4 \f ef4 df4 |
+                f4. ef8 ef4 \dynamicUp ef,4\< |
+                f4 af4 ef4 \f df4 |
                 ef2 df2 |
                 c2. \bar "|."
             }
@@ -152,7 +150,7 @@ global = {
 
                 df4. df8 df4 df4 |
                 ef4 ef4 ef4 ef4 |
-                ef4. df8 df4 df4 |
+                ef4. df8 df4 df4 | \break
 
                 f4. f8 ef4 df4 |
                 f4. ef8 ef4 ef,4 |
