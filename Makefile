@@ -14,10 +14,13 @@ all: chant-for-bach.mp3 friendship.pdf
 
 pdf: friendship.pdf
 
-%.mid: %.abc
+%.midi: %.abc
 	abc2midi $< -o $@
 
-%.mp3: %.mid
+%.midi: %.ly
+	lilypond --output=$* $<
+
+%.mp3: %.midi
 	abc2midi $< -o $@
 
 %.pdf: %.ly

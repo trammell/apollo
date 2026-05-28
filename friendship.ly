@@ -191,17 +191,17 @@
 
                 bf4. bf8 bf4 bf4 |             % clo ver scent ed
                 ef4. ef8 ef4 ef4 |             % af ter noon is
-                af,4. af8 af4 af4 | \break      % friend ship that has
+                af,4. af8 af4 af4 | \break     % friend ship that has
 
-                df4. df8 df4 df4 |
-                ef4 ef4 ef4 ef4 |
-                ef4. df8 df4 df4 | \break
+                df4. df8 df4 df4 |             % lived for years through
+                ef4 ef4 ef4 ef4 |              % for tune fail ure
+                ef4. df8 df4 df4 | \break      % and through tears is
 
-                f4. f8 ef4 df4 |
-                f4. ef8 ef4 ef,4 |
-                f4 af4 ef4 df4 |
-                ef2 df2 |
-                c2. \bar "|."
+                f4. f8 ef4 df4 |               % friend ship that has
+                f4. ef8 ef4 ef,4 |             % lived for years through
+                f4 af4 ef4 df4 |               % for tune fail ure
+                ef2 df2 |                      % and through
+                c2. \bar "|."                  % tears
             }
         >>
         \addlyrics {
@@ -226,6 +226,8 @@
         }
 
     >>
+
+\midi { }
 }
 
 
@@ -245,3 +247,4 @@
         "Column 2 Text"
     }
 }
+
