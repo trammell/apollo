@@ -181,7 +181,7 @@ verseTwo = \lyricmode {
     % generate both PDF and MIDI output
     \layout { }
     \midi {
-        \tempo 4 = 120
+        \tempo 4 = 100
     }
 }
 
