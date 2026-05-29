@@ -3,6 +3,7 @@
 \version "2.26.0"
 \language "english"
 
+% squeeze the staves a little bit so they fit on two pages
 #(set-global-staff-size 18)
 
 \header {
@@ -206,7 +207,9 @@ verseTwo = \lyricmode {
             "We still shall love the and be true"
             "To dear old Hotchkiss and the blue."
         }
-        \hspace #2 \draw-line #'(0 . -20) \hspace #2
+        \hspace #4
+        \draw-line #'(0 . -22)
+        \hspace #4
         \left-column {
             "When evening's shadows close the day,"
             "Our halls with music sweet are gay,"
