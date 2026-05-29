@@ -4,6 +4,11 @@
 usage:
 	@echo "usage: make [clean|build]"
 
+all:
+	make friendship.pdf
+	make friendship.midi
+	make friendship.wav
+
 clean:
 	rm -f friendship.pdf
 	rm -f *.midi *.wav *.ogg
@@ -11,14 +16,10 @@ clean:
 lint:
 	abc2midi chant-for-bach.abc -c -o /dev/null
 
-all: chant-for-bach.mp3 friendship.pdf
+# all: chant-for-bach.mp3 friendship.pdf
 
 pdf: friendship.pdf
 
-fs:
-	make friendship.pdf
-	make friendship.midi
-	make friendship.wav
 
 %.midi: %.abc
 	abc2midi $< -o $@

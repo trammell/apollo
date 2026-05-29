@@ -34,5 +34,10 @@ Then, use e.g. `fluidsynth` to generate a `.wav` file:
 
 
 
+# TO DO
 
+* [ ] separate learning tracks
+
+
+https://music.stackexchange.com/questions/108555/how-to-split-multi-voice-lilypond-scores-to-multiple-midi-outputs-e-g-for-choi
 
