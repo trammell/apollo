@@ -14,7 +14,24 @@ Files relating to the [Apollo Men's Chorus][apollo].
 * `.ly` files are in [lilypond][ly] music notation.
 
 
-## Using `fluidsynth`
+## Generating music from Lilypond
+
+[midi]: https://lilypond.org/doc/v2.23/Documentation/notation/the-midi-block
+
+Add a [MIDI block][midi]!
+
+```lilypond
+\score {
+  ... music ... 
+  \layout { }
+  \midi { }
+}
+```
+
+Then, use e.g. `fluidsynth` to generate a `.wav` file:
+
+    fluidsynth -F friendship.wav ~/Downloads/PC3K7_Synth.sf2 friendship.midi
+
 
 
 
