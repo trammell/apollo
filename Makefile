@@ -6,7 +6,7 @@ usage:
 
 clean:
 	rm -f friendship.pdf
-	rm -f *.midi *.wav
+	rm -f *.midi *.wav *.ogg
 
 lint:
 	abc2midi chant-for-bach.abc -c -o /dev/null
