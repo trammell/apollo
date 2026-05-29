@@ -22,9 +22,6 @@
 
 \score {
 
-    \midi { }
-
-
     \new ChoirStaff <<
 
         \new Staff \with { instrumentName = "T1" } <<
@@ -229,23 +226,26 @@
         }
 
     >>
+
+    \layout { }
+    \midi { }
 }
 
 
-\markup {
-    \vspace #3
-    \fill-line { \bold \large "\n\nFair Hotchkiss" }
-    \vspace #3
-}
-
-\markup \concat {
-    \left-column {
-        "Fair Hotchkiss, we, thy loyal sons,"
-        "Where'er in life our journey runs"
-    }
-    \hspace #2 \draw-line #'(0 . -40) \hspace #2
-    \left-column {
-        "Column 2 Text"
-    }
-}
-
+% \markup {
+%     \vspace #3
+%     \fill-line { \bold \large "\n\nFair Hotchkiss" }
+%     \vspace #3
+% }
+%
+% \markup \concat {
+%     \left-column {
+%         "Fair Hotchkiss, we, thy loyal sons,"
+%         "Where'er in life our journey runs"
+%     }
+%     \hspace #2 \draw-line #'(0 . -40) \hspace #2
+%     \left-column {
+%         "Column 2 Text"
+%     }
+% }
+%
